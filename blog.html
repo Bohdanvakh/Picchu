@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,400;0,600;0,700;0,800;1,500&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <title>Blog</title>
+    <link rel="shortcut icon" type="image/x-icon" href="img/logo/Logo.svg" />
+    <link rel="stylesheet" href="styles/blog_styles.css">
+</head>
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <div class="header__container">
+                <img src="img/logo/Logo.svg" alt="Logo">
+                <div class="menu">
+                    <ul class="header_menu" id="header_menu">
+                        <li class="menu_item"><a href="#" class="menu_link">Home</a></li>
+                        <li class="menu_item"><a href="blog.html" class="menu_link">Blog</a></li>
+                        <li class="menu_item"><a href="#" class="menu_link btn">Ask Picchu</a></li>
+                    </ul>
+                </div>
+                <div class="burger">
+                    <img src="img/burger/burger__box.png" alt="burger__menu" onclick="burger_menu()" id="burger">
+                </div>
+            </div>
+        </header>
+        <main class="page">
+            <section class="page__intro intro">
+                <div class="intro__container">
+                    <div class="search__block">
+                        <div class="list__block">
+                            <ul class="category__list">
+                                <li class="list__item-search selected-list__link">
+                                    <a href="" class="list__link">Category 1</a>
+                                </li>
+                                <li class="list__item-search">
+                                    <a href="" class="list__link">Category 2</a>
+                                </li>
+                                <li class="list__item-search">
+                                    <a href="" class="list__link">Category 3</a>
+                                </li>
+                                <li class="list__item-search">
+                                    <a href="" class="list__link">Category 4</a>
+                                </li>
+                                <li class="list__item-search">
+                                    <a href="" class="list__link">Category 5</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="search__box">
+                            <input class="input__search" type="" placeholder="Search here">
+                        </div>
+                    </div>
+                    <div class="maintenance__block">
+                        <div class="maintenance__content">
+                            <div class="content__text">
+                                <p class="category__text">Category 1</p>
+                                <p class="category__date">21 Jan 2022</p>
+                                <h3 class="maintenance__title">Proactive maintenance</h3>
+                                <a href="#" class="content__paragraph">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet...</a>
+                            </div>
+                            <div class="content__profile">
+                                <div class="profile__image">
+                                    <img src="img/profile_images/Ellipse 2.png" alt="profile image">
+                                </div>
+                                <div class="profile__name">
+                                    <h3>Antony James</h3>
+                                    <p>21 Jan 2022</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="maintenance__image">
+                            <img src="img/main__image__blog.png" alt="main__image">
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="page__content content">
+                <div class="content__container">
+                    <div class="content__items__block">
+                        <div class="items__block__item">
+                            <div class="item__image">
+                                <a href="#">
+                                    <img src="img/items__photos/1.png" alt="image">
+                                </a>
+                            </div>
+                            <div class="item__content">
+                                <p class="category__text content__category">Category 1</p>
+                                <h3 class="maintenance__title content__title">Proactive maintenance</h3>
+                                <a href="#" class="content__paragraph item__content__text">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit...</a>
+                                <div class="item__content__profile">
+                                    <div class="content__profile__img">
+                                        <img src="img/profile_images/Ellipse new.png" alt="profile">
+                                    </div>
+                                    <div class="content__profile__name">
+                                        <h4>Antony James</h4>
+                                        <p>21 Jan 2022</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="items__block__item">
+                            <div class="item__image">
+                                <a href="#">
+                                    <img src="img/items__photos/2.png" alt="image">
+                                </a>
+                            </div>
+                            <div class="item__content">
+                                <p class="category__text content__category">Category 1</p>
+                                <h3 class="maintenance__title content__title">Proactive maintenance</h3>
+                                <a href="#" class="content__paragraph item__content__text">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit...</a>
+                                <div class="item__content__profile">
+                                    <div class="content__profile__img">
+                                        <img src="img/profile_images/Ellipse new.png" alt="profile">
+                                    </div>
+                                    <div class="content__profile__name">
+                                        <h4>Antony James</h4>
+                                        <p>21 Jan 2022</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="items__block__item">
+                            <div class="item__image">
+                                <a href="#">
+                                    <img src="img/items__photos/3.png" alt="image">
+                                </a>
+                            </div>
+                            <div class="item__content">
+                                <p class="category__text content__category">Category 1</p>
+                                <h3 class="maintenance__title content__title">Proactive maintenance</h3>
+                                <a href="#" class="content__paragraph item__content__text">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit...</a>
+                                <div class="item__content__profile">
+                                    <div class="content__profile__img">
+                                        <img src="img/profile_images/Ellipse new.png" alt="profile">
+                                    </div>
+                                    <div class="content__profile__name">
+                                        <h4>Antony James</h4>
+                                        <p>21 Jan 2022</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="items__block__item">
+                            <div class="item__image">
+                                <a href="#">
+                                    <img src="img/items__photos/4.png" alt="image">
+                                </a>
+                            </div>
+                            <div class="item__content">
+                                <p class="category__text content__category">Category 1</p>
+                                <h3 class="maintenance__title content__title">Proactive maintenance</h3>
+                                <a href="#" class="content__paragraph item__content__text">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit...</a>
+                                <div class="item__content__profile">
+                                    <div class="content__profile__img">
+                                        <img src="img/profile_images/Ellipse new.png" alt="profile">
+                                    </div>
+                                    <div class="content__profile__name">
+                                        <h4>Antony James</h4>
+                                        <p>21 Jan 2022</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="items__block__item">
+                            <div class="item__image">
+                                <a href="#">
+                                    <img src="img/items__photos/5.png" alt="image">
+                                </a>
+                            </div>
+                            <div class="item__content">
+                                <p class="category__text content__category">Category 1</p>
+                                <h3 class="maintenance__title content__title">Proactive maintenance</h3>
+                                <a href="#" class="content__paragraph item__content__text">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit...</a>
+                                <div class="item__content__profile">
+                                    <div class="content__profile__img">
+                                        <img src="img/profile_images/Ellipse new.png" alt="profile">
+                                    </div>
+                                    <div class="content__profile__name">
+                                        <h4>Antony James</h4>
+                                        <p>21 Jan 2022</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="items__block__item">
+                            <div class="item__image">
+                                <a href="#">
+                                    <img src="img/items__photos/6.png" alt="image">
+                                </a>
+                            </div>
+                            <div class="item__content">
+                                <p class="category__text content__category">Category 1</p>
+                                <h3 class="maintenance__title content__title">Proactive maintenance</h3>
+                                <a href="#" class="content__paragraph item__content__text">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit...</a>
+                                <div class="item__content__profile">
+                                    <div class="content__profile__img">
+                                        <img src="img/profile_images/Ellipse new.png" alt="profile">
+                                    </div>
+                                    <div class="content__profile__name">
+                                        <h4>Antony James</h4>
+                                        <p>21 Jan 2022</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="items__block__item">
+                            <div class="item__image">
+                                <a href="#">
+                                    <img src="img/items__photos/7.png" alt="image">
+                                </a>
+                            </div>
+                            <div class="item__content">
+                                <p class="category__text content__category">Category 1</p>
+                                <h3 class="maintenance__title content__title">Proactive maintenance</h3>
+                                <a href="#" class="content__paragraph item__content__text">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit...</a>
+                                <div class="item__content__profile">
+                                    <div class="content__profile__img">
+                                        <img src="img/profile_images/Ellipse new.png" alt="profile">
+                                    </div>
+                                    <div class="content__profile__name">
+                                        <h4>Antony James</h4>
+                                        <p>21 Jan 2022</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="items__block__item">
+                            <div class="item__image">
+                                <a href="#">
+                                    <img src="img/items__photos/8.png" alt="image">
+                                </a>
+                            </div>
+                            <div class="item__content">
+                                <p class="category__text content__category">Category 1</p>
+                                <h3 class="maintenance__title content__title">Proactive maintenance</h3>
+                                <a href="#" class="content__paragraph item__content__text">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit...</a>
+                                <div class="item__content__profile">
+                                    <div class="content__profile__img">
+                                        <img src="img/profile_images/Ellipse new.png" alt="profile">
+                                    </div>
+                                    <div class="content__profile__name">
+                                        <h4>Antony James</h4>
+                                        <p>21 Jan 2022</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="items__block__item">
+                            <div class="item__image">
+                                <a href="#">
+                                    <img src="img/items__photos/9.png" alt="image">
+                                </a>
+                            </div>
+                            <div class="item__content">
+                                <p class="category__text content__category">Category 1</p>
+                                <h3 class="maintenance__title content__title">Proactive maintenance</h3>
+                                <a href="#" class="content__paragraph item__content__text">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit...</a>
+                                <div class="item__content__profile">
+                                    <div class="content__profile__img">
+                                        <img src="img/profile_images/Ellipse new.png" alt="profile">
+                                    </div>
+                                    <div class="content__profile__name">
+                                        <h4>Antony James</h4>
+                                        <p>21 Jan 2022</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="content__button__block">
+                        <div class="button_elements">
+                            <a href="#" class="circle__button">
+                                <img src="img/arrow buttons/left.png" alt="">
+                            </a>
+                            <a href="#" class="circle__button active">2</a>
+                            <a href="#" class="circle__button number">3</a>
+                            <a href="#" class="circle__button number">..</a>
+                            <a href="#" class="circle__button">
+                                <img src="img/arrow buttons/right.png" alt="">
+                            </a>
+                        </div>
+                        <div class="button__more">
+                            <a href="#">Show more</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="page__request request">
+                <div class="request__container">
+                    <div class="request__content__block">
+                        <div class="services__title__block">
+                            <div class="about_us__title_box request-title_box">
+                                <h1 class="about_us__title title_auto request-title_auto">Newsletter</h1>
+                                <h1 class="about_us__title__graphic request-title__graphic">Newsletter</h1>
+                                <div class="title__red__string request-title__red__string"></div>
+                            </div>
+                        </div>
+                        <form class="services__input__box" method="POST">
+                            <input type="text" class="services__input" placeholder="Name">
+                            <input type="email" class="services__input" placeholder="Email Address">
+                            <button type="submit" class="services__button">Subscribe</button>
+                        </form>
+                    </div>
+
+                </div>
+            </section>
+        </main>
+        <footer class="footer">
+            <div class="footer__container">
+                <div class="footer__menu__block">
+                    <div class="footer__block__item block__item__1">
+                        <div class="footer__block__logo">
+                            <img src="img/logo/Logo.svg" alt="Logo">
+                        </div>
+                        <p>For any property repair or maintenance, Simply call Picchu!</p>
+                        <div class="footer__block__location">
+                            <a href="#">Proptality Ptd Ltd</a>
+                            <a href="#">UEN: 202138535D</a>
+                        </div>
+                    </div>
+                    <div class="footer__block__item block__item__2">
+                        <div class="block__content__item">
+                            <div class="block__content__box">
+                                <h2>Useful Links</h2>
+                                <ul class="content__item__list">
+                                <li class="list__item">
+                                    <a href="#" class="list__link">Home</a>
+                                </li>
+                                <li class="list__item">
+                                    <a href="#" class="list__link">Blog</a>
+                                </li>
+                                <li class="list__item">
+                                    <a href="#" class="list__link">Ask Picchu</a>
+                                </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="block__content__item">
+                            <div class="block__content__box">
+                                <h2>Social media</h2>
+                                <ul class="content__item__list">
+                                    <li class="list__item">
+                                        <a href="#" class="list__link">Facebook</a>
+                                    </li>
+                                    <li class="list__item">
+                                        <a href="#" class="list__link">Instagram</a>
+                                    </li>
+                                    <li class="list__item">
+                                        <a href="#" class="list__link">Twitter</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="footer__block__item block__item__3">
+                        <div class="block__tel">
+                            <a href="tel:+6569697999" class="block__item__button button__phone">+ 65 6969 7999</a>
+                            <a href="tel:+6569697999" class="block__item__button button__watsup">+ 65 6969 7999</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer__lorem__text">
+                    <p>Privacy policy</p>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="script/script.js"></script>
+</body>
+</html>
